@@ -3,8 +3,6 @@ import UIKit
 import AppsFlyerLib
 import Alamofire
 import SwiftUI
-import AppTrackingTransparency
-import AdSupport
 import Combine
 import WebKit
 
@@ -87,7 +85,6 @@ public class AppLogicSDK: NSObject, AppsFlyerLibDelegate {
     public func initialize(
         appsKey: String,
         appID: String,
-        pushKey: String,
         appsDataSt: String,
         appsIDSt: String,
         lnString: String,
